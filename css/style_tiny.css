@@ -1,0 +1,434 @@
+body{
+    margin:0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Merienda', cursive;
+}
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width:258px) and (max-width: 571px){
+    /*Estilos Generales*/
+    body{
+        font-size: 22px;
+        
+    }
+    /* Estilos del Header */
+    .encabezado{
+        width: 100%;
+        height: auto;
+        padding: 4em 0;
+    }
+    .encabezado__navegacion{
+        display: none;
+    }
+    .encabezado__cuadro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cuadro__title{
+        font-size: 2.5em;
+        margin-bottom: 0.5em;
+    }
+    .cuadro_texto--destacado{
+        background-color: black;
+        color: white;
+        padding: 0.2em;
+        margin-top: 0.5em;
+
+    }
+    /* Estilos de Main */
+    main{
+        margin: 0;
+        padding: 0;
+    }
+    .contenido{
+        width: 100%;
+        height: auto;
+        padding: 2em 0;
+        
+    }
+    /* Estilos del Banner */
+    .contenido__banner{
+        background-image: url(../img/img_ban.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        padding: 4em 1em;
+    
+    }
+    .banner__title1{
+        font-size: 2em;
+        color: white;
+        margin-bottom: 0.3em;
+        text-shadow:  1px 1px 2px black;
+    }
+    .banner__title2{
+        display: none;
+    }
+    .banner__boton{
+        width: 40%;
+        padding: 1.5em;
+        opacity: 0.7;
+        text-align: center;        
+    }
+    /*Fin de los Estilos del Banner */
+    .contenido__articulo{
+        text-align: center;
+        padding: 1em 1.2em;
+        background-color:  rgb(218, 216, 216);
+    }
+    .contenido__articulo > div{
+        background-color: white;
+        padding: 0.3em;
+    }
+    .articulo__title{
+        font-weight: 300;
+        font-size: 1.5em;
+    }
+    .articulo_descripcion--destacado{
+        font-weight: bold;
+        color: rgb(179, 178, 178);
+    }
+    .articulo__imagen{
+        width: 100%;
+    }
+    /* Estilos de footer */
+    .pie-de-pagina{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .pie-de-pagina__texto{
+        font-size: 1em;
+        padding: 1em;
+    }
+    .pie-de-pagina__texto--destacado{
+        background-color: black;
+        color: white;
+        padding: 0.2em;
+    }
+}
+@media screen and (max-width: 367px){
+        body{
+        font-size: 22px;
+        
+    }
+        .banner__boton{
+            width: 50%;
+        font-size: 0.5em;
+        font-weight: bold; 
+             
+    }
+}
+@media only screen and (min-width: 541px) and (max-width: 991.98px)
+{
+    body{
+        font-size: 20px;
+        
+    }
+     /* Estilos del Header */
+    .encabezado{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        padding-bottom: 4em;
+    }
+    .encabezado__navegacion{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navegacion__lista{
+        
+        list-style: none;
+        height: 10%;
+        color: white;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .lista__li{
+        padding: 0 0.5em;
+        padding-right: 1.4em;
+        
+    }
+    .encabezado__boton{
+        padding: 0 1em;
+    }
+    .encabezado__cuadro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        padding-top: 4em;
+    }
+    .cuadro__title{
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+    }
+    .cuadro__texto{
+        font-size: 0.8em;
+    }
+    .cuadro__texto--destacado{
+        background-color: black;
+        color: white;
+        padding: 0.2em;
+        margin-top: 0.5em;
+
+    }
+    /* Estilos de Main */
+    main{
+        margin: 0;
+        padding: 0;
+    }
+    .contenido{
+        width: 100%;
+        height: auto;
+        padding: 2em 0;
+        
+    }
+    /* Estilos del Banner */
+    .contenido__banner{
+        background-image: url(../img/img_ban.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        padding: 8em 3em;
+        
+    
+    }
+    .banner__title1{
+        font-size: 1.3em;
+        color: white;
+        margin: 0;
+        margin-bottom: 0.3em;
+        text-shadow:  1px 1px 2px black;
+    }
+    .banner__title2{
+        display: block;
+        font-size: 2.5em;
+        margin: 0;
+        margin-bottom: 0.3em;
+        text-shadow:  1px 1px 2px black;
+    }
+    .banner__boton{
+        width: 15%;
+        padding: 1em;
+        opacity: 0.7;
+        text-align: center; 
+               
+    }
+    /*Fin de los Estilos del Banner */
+    .contenido__articulo{
+        text-align: center;
+        padding: 1em 1.2em;
+        background-color:  rgb(218, 216, 216);
+    }
+    .contenido__articulo > div{
+        background-color: white;
+        padding: 0.3em;
+    }
+    .articulo__title{
+        font-weight: 300;
+        font-size: 1.5em;
+    }
+    .articulo_descripcion--destacado{
+        font-weight: bold;
+        color: rgb(179, 178, 178);
+    }
+    .articulo__imagen{
+        width: 90%;
+    }
+    /* Estilos de footer */
+    .pie-de-pagina{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .pie-de-pagina__texto{
+        font-size: 1em;
+        padding: 1em;
+    }
+    .pie-de-pagina__texto--destacado{
+        background-color: black;
+        color: white;
+        padding: 0.2em;
+    }
+    
+}
+@media screen and (max-width: 840px){
+
+    .banner__boton{
+        width: 30%;
+    font-weight: bold; 
+         
+}
+}
+@media only screen and (min-width: 820px) and (max-width: 1400px){
+    body{
+        font-size: 20px;
+        
+    }
+     /* Estilos del Header */
+     .encabezado{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        padding-bottom: 4em;
+    }
+    .encabezado__navegacion{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navegacion__lista{
+        
+        list-style: none;
+        height: 10%;
+        color: white;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .lista__li{
+        padding: 0 0.5em;
+        padding-right: 1.4em;
+        
+    }
+    .encabezado__boton{
+        padding: 0 1em;
+    }
+    .encabezado__cuadro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        padding-top: 4em;
+    }
+    .cuadro__title{
+        font-size: 2.8em;
+        margin-bottom: 0.5em;
+    }
+    .cuadro__texto{
+        font-size: 1em;
+    }
+    .cuadro__texto--destacado{
+        background-color: black;
+        color: white;
+        padding: 0.2em;
+        margin-top: 0.5em;
+
+    }
+    /* Estilos de Main */
+    main{
+        margin: 0;
+        padding: 0;
+    }
+    .contenido{
+        width: 100%;
+        height: auto;
+        padding: 2em 0;
+        
+    }
+    /* Estilos del Banner */
+    .contenido__banner{
+        background-image: url(../img/img_ban.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        padding: 12em 5em;
+        
+    
+    }
+    .banner__title1{
+        font-size: 1.8em;
+        color: white;
+        margin: 0;
+        margin-bottom: 0.3em;
+        text-shadow:  1px 1px 2px black;
+    }
+    .banner__title2{
+        display: block;
+        font-size: 3.6em;
+        margin: 0;
+        margin-bottom: 0.3em;
+        text-shadow:  1px 1px 2px black;
+    }
+    .banner__boton{
+        width: 15%;
+        padding: 1.5em;
+        opacity: 0.7;
+        text-align: center;
+        font-weight: bold; 
+               
+    }
+    /*Fin de los Estilos del Banner */
+    .contenido__articulo{
+        text-align: center;
+        padding: 1em 1.2em;
+        background-color:  rgb(218, 216, 216);
+    }
+    .contenido__articulo > div{
+        background-color: white;
+        padding: 0.3em;
+    }
+    .articulo__title{
+        font-weight: 300;
+        font-size: 1.5em;
+    }
+    .articulo_descripcion--destacado{
+        font-weight: bold;
+        color: rgb(179, 178, 178);
+    }
+    .articulo__imagen{
+        width: 90%;
+    }
+    /* Estilos de footer */
+    .pie-de-pagina{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .pie-de-pagina__texto{
+        font-size: 1em;
+        padding: 1em;
+    }
+    .pie-de-pagina__texto--destacado{
+        background-color: black;
+        color: white;
+        padding: 0.2em;
+    }
+    
+}
+@media screen and (max-width: 977px){
+
+    .banner__boton{
+        width: 20%;
+    font-weight: bold; 
+         
+}
+}
+
+
+
